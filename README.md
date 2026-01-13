@@ -1,3 +1,58 @@
+# 📝 Notes - Laravel Application
+
+Notes é uma aplicação web simples desenvolvida em **Laravel**, com foco em autenticação de usuários e gerenciamento de notas pessoais.
+
+O sistema permite que cada usuário crie, visualize, edite e exclua suas próprias notas de forma segura e organizada.
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Sistema de autenticação (login e logout)
+- 🔐 Proteção de rotas para usuários autenticados
+- 📝 Criação de notas
+- ✏️ Edição de notas
+- 🗑️ Exclusão de notas
+- 📅 Registro de data e hora de criação
+- 👤 Cada usuário visualiza apenas suas próprias notas
+
+---
+
+## 🖥️ Telas do Sistema
+
+- **Login**: acesso seguro ao sistema
+  ![Login](prints/login.png)
+- **Home**: listagem das notas do usuário
+  ![Home](prints/home.png) 
+- **Nova Nota**: formulário para criação de novas anotações
+  ![Criar Nota](prints/new_note.png) 
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **PHP 8+**
+- **Laravel**
+- **MySQL**
+- **HTML5**
+- **CSS3**
+- **Blade Templates**
+
+---
+
+## ⚙️ Instalação
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
